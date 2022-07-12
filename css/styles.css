@@ -1,34 +1,36 @@
 body {
   font-family: 'Anek Malayalam', sans-serif;
-  margin: 0;
-  padding: 0;
+ background-color: white;
+ color: #212121;
+ font-size: 14px;
+ letter-spacing: 0.03em;
 }
 
-
-
-
-.logo{
-    font-family: 'Anek Malayalam', sans-serif;
-    font-size: 20px;
-    list-style: none;
-    text-decoration: none;
-    font-weight: bold;
-    color: #000;
-    
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2196f3;
 }
-
 
 .menu {
-    font-family: 'Anek Malayalam', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-    color: #000;
-    display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-  }
+  font-family: 'Anek Malayalam', sans-serif;
+ font-weight: 500;
+ display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
 
 .menu:hover {
   color: #2196f3;
@@ -40,35 +42,36 @@ body {
 
 section {
   list-style: none;
-  
 }
 
 main {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
-
 
 header {
   display: inline-block;
   padding: 15px;
 }
 
-ul{
-    list-style: none;   
-    display: inline-block;
+ul {
+  list-style: none;
+  display: inline-block;
 }
 
 .button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 
-  border: solid 5px #EEEEEE;
-  color: #000000;
-  background: #f5f4fa;
-  padding: 7px 8px;
+  
   text-align: center;
-  border-radius: 6px;
-  margin: 0 1.5%;
-  text-align: center;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+  background: #F5F4FA;
+border-radius: 4px;
 }
 
 .button:hover {
@@ -78,5 +81,189 @@ ul{
   transition: all 0.3s linear;
 }
 
+.spanwhite {
+  color: #fff;
+}
+
+.spanblack {
+  color: #000;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.textfooter {
+  font-family: 'Anek Malayalam', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.textfooter:hover {
+  color: #2196f3;
+  transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.filling{
+font-size: 18px;
 
 
+}
+
+.headerP{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+  
+  color: #212121;
+
+}
+
+.textP{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+
+}
+
+.textEI{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+
+}
+
+.headerEI{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+
+}
+
+.headerDI{
+ font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #212121;
+}
+
+.textDI{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+
+}
+
+.what-are-we-doing-header{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+
+}
+
+.effective-solution-for-your-business{
+
+
+background: #2F303A;
+
+
+
+}
+
+
+.font-effective-solution-for-your-business{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.button-effective-solution-for-your-business{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: #FFFFFF;
+
+  background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+
+.button-effective-solution-for-your-business:hover{
+  color: #000;
+  background: #2196f3;
+  transition: all 0.3s linear;
+  transition: all 0.3s linear;
+
+}
