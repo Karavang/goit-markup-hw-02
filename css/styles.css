@@ -1,9 +1,19 @@
 body {
-  font-family: 'Anek Malayalam', sans-serif;
- background-color: white;
- color: #212121;
- font-size: 14px;
- letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--font-color-light);
+  color: var(--font-color-dark);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --logo-and-hover: #2196f3;
+  --footer-and-back-solution: #2f303a;
+  --font-color-dark: #212121;
+  --back-for-section: #eeeeee;
+  --color-for-text-characterizing-the-content-in-the-form:#757575;
+  --button-colors-in-the-sorter:#f5f4fa;
+  --font-color-light:#ffffff;
 }
 
 .logo {
@@ -13,27 +23,25 @@ body {
   list-style: none;
   text-decoration: none;
   font-weight: bold;
-  color: #2196f3;
+  color: var(--logo-and-hover);
 }
 
 .menu {
-  font-family: 'Anek Malayalam', sans-serif;
- font-weight: 500;
- display: inline-block;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Roboto';
-  font-style: normal;
-
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--font-color-dark);
 }
 
 .menu:hover {
-  color: #2196f3;
+  color: var(--logo-and-hover);
+}
+
+.menu.current {
+  background-color: var(--acent-color);
 }
 
 .link {
@@ -42,10 +50,6 @@ body {
 
 section {
   list-style: none;
-}
-
-main {
-  background-color: #eeeeee;
 }
 
 header {
@@ -65,18 +69,17 @@ ul {
   font-size: 16px;
   line-height: 26px;
 
-  
   text-align: center;
   letter-spacing: 0.03em;
-  
-  color: #212121;
-  background: #F5F4FA;
-border-radius: 4px;
+
+  color: var(--font-color-dark);
+  background: var(--button-colors-in-the-sorter);
+  border-radius: 4px;
 }
 
 .button:hover {
   color: #fff;
-  background: #2196f3;
+  background: var(--logo-and-hover);
   transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
@@ -90,11 +93,11 @@ border-radius: 4px;
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-and-back-solution);
 }
 
 .textfooter {
-  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -102,22 +105,21 @@ footer {
   text-decoration: none;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--font-color-light);
 }
 
 .textfooter:hover {
-  color: #2196f3;
+  color: var(--logo-and-hover);
   transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
-.filling{
-font-size: 18px;
-
-
+.filling {
+  font-size: 18px;
+  background-color: var(--back-for-section);
 }
 
-.headerP{
+.headerP {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -125,82 +127,71 @@ font-size: 18px;
   line-height: 36px;
 
   letter-spacing: 0.06em;
-  
-  color: #212121;
 
+  color: var(--font-color-dark);
 }
 
-.textP{
+.textP {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  
-  
-  letter-spacing: 0.03em;
-  
-  color: #757575;
 
+  letter-spacing: 0.03em;
+
+  color: var(--color-for-text-characterizing-the-content-in-the-form);
 }
 
-.textEI{
+.textEI {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: 0.03em;
-  
-  color: #757575;
 
+  color: var(--color-for-text-characterizing-the-content-in-the-form);
 }
 
-.headerEI{
-  font-family: 'Roboto';
-  font-style: normal;
+.headerEI {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  
   text-align: center;
-  letter-spacing: 0.03em;
-  
-  color: #212121;
 
+  color: var(--font-color-dark);
 }
 
-.headerDI{
- font-family: 'Roboto';
+.headerDI {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
-  color: #212121;
+
+  color: var(--font-color-dark);
 }
 
-.textDI{
+.textDI {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-  
-  letter-spacing: 0.03em;
-  
-  color: #757575;
 
+  letter-spacing: 0.03em;
+
+  color: var(--color-for-text-characterizing-the-content-in-the-form);
 }
 
-.what-are-we-doing-header{
+.what-are-we-doing-header {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -208,62 +199,65 @@ font-size: 18px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  
-  color: #212121;
 
+  color: var(--font-color-dark);
 }
 
-.effective-solution-for-your-business{
-
-
-background: #2F303A;
-
-
-
+.effective-solution-for-your-business {
+  background: var(--footer-and-back-solution);
 }
 
-
-.font-effective-solution-for-your-business{
+.font-effective-solution-for-your-business {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-
+  color: var(--font-color-light);
 }
 
-.button-effective-solution-for-your-business{
+.button-effective-solution-for-your-business {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
-  
+ 
+
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  
-  color: #FFFFFF;
 
-  background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  color: var(--font-color-light);
 
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
-.button-effective-solution-for-your-business:hover{
-  color: #000;
-  background: #2196f3;
+.button-effective-solution-for-your-business:hover {
+  background: var(--logo-and-hover);
   transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
