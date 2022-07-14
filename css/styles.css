@@ -11,9 +11,11 @@ body {
   --footer-and-back-solution: #2f303a;
   --font-color-dark: #212121;
   --back-for-section: #eeeeee;
-  --color-for-text-characterizing-the-content-in-the-form:#757575;
-  --button-colors-in-the-sorter:#f5f4fa;
-  --font-color-light:#ffffff;
+  --color-for-text-in-the-form: #757575;
+  --button-colors-in-the-sorter: #f5f4fa;
+  --font-color-light: #ffffff;
+  --contact-font: #757575;
+  --back-section: #f5f4fa;
 }
 
 .logo {
@@ -27,12 +29,9 @@ body {
 }
 
 .menu {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--font-color-dark);
 }
 
@@ -41,11 +40,12 @@ body {
 }
 
 .menu.current {
-  background-color: var(--acent-color);
+  color: var(--logo-and-hover);
 }
 
 .link {
   text-decoration: none;
+  list-style: none;
 }
 
 section {
@@ -59,7 +59,6 @@ header {
 
 ul {
   list-style: none;
-  display: inline-block;
 }
 
 .button {
@@ -67,7 +66,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -80,8 +79,7 @@ ul {
 .button:hover {
   color: #fff;
   background: var(--logo-and-hover);
-  transition: all 0.3s linear;
-  transition: all 0.3s linear;
+
 }
 
 .spanwhite {
@@ -110,18 +108,10 @@ footer {
 
 .textfooter:hover {
   color: var(--logo-and-hover);
-  transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-.filling {
-  font-size: 18px;
-  background-color: var(--back-for-section);
 }
 
 .headerP {
-  font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -132,35 +122,32 @@ footer {
 }
 
 .textP {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875px;
 
   letter-spacing: 0.03em;
 
-  color: var(--color-for-text-characterizing-the-content-in-the-form);
+  color: var(--color-for-text-in-the-form);
 }
 
 .textEI {
-  font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--color-for-text-characterizing-the-content-in-the-form);
+  color: var(--color-for-text-in-the-form);
 }
 
 .headerEI {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
 
   color: var(--font-color-dark);
@@ -188,7 +175,7 @@ footer {
 
   letter-spacing: 0.03em;
 
-  color: var(--color-for-text-characterizing-the-content-in-the-form);
+  color: var(--color-for-text-in-the-form);
 }
 
 .what-are-we-doing-header {
@@ -208,12 +195,9 @@ footer {
 }
 
 .font-effective-solution-for-your-business {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  
+  line-height: 1.36;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -224,28 +208,22 @@ footer {
 
 .button-effective-solution-for-your-business {
   font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
- 
+  line-height: 1.875;
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--font-color-light);
 
-  background: #188ce8;
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .button-effective-solution-for-your-business:hover {
   background: var(--logo-and-hover);
-  transition: all 0.3s linear;
-  transition: all 0.3s linear;
 }
 
 .visually-hidden {
@@ -260,4 +238,15 @@ footer {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--contact-font);
+}
+
+.our-team {
+  background-color: var(--back-section);
 }
