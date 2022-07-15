@@ -250,3 +250,8 @@ footer {
 .our-team {
   background-color: var(--back-section);
 }
+
+.textfooter-opacity{
+  opacity: 0.6;
+
+}
