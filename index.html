@@ -11,22 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <title>WebStudio</title>
   </head>
   <body>
     <header>
       <a href="index.html" class="logo"> Web<span class="spanblack">Studio</span> </a>
       <nav>
-        <ul>
-          <li><a href="index.html" class="menu link nav current">Студия</a></li>
-          <li><a href="protfolio.html" class="menu link nav">Портфолио</a></li>
-          <li><a href="index.html" class="menu link nav">Контакты</a></li>
+        <div class="menu-flex">
+          <div><a href="index.html" class="menu link nav current">Студия</a></div>
+          <div><a href="protfolio.html" class="menu link nav">Портфолио</a></div>
+          <div><a href="index.html" class="menu link nav">Контакты</a></div>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="contact inf link">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111" class="contact inf link">+38 099 111 11 11</a></li>
-      </ul>
+      <div class="contact-flex">
+        <div><a href="mailto:info@devstudio.com" class="contact inf link">info@devstudio.com</a></div>
+        <div><a href="tel:+380991111111" class="contact inf link">+38 099 111 11 11</a></div>
+      </div>
     </header>
 
     <main>
@@ -76,53 +77,53 @@
       </section>
       <section class="what-are-we-doing">
         <h2 class="what-are-we-doing-header ">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <div>
+          <div>
             <img src="img/index/wawd1.jpg" alt="what-are-we-doing1" width="370" height="294" />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src="img/index/wawd2.jpg" alt="what-are-we-doing2" width="370" height="294" />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src="img/index/wawd3.jpg" alt="what-are-we-doing3" width="370" height="294" />
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
 
       <section class="our-team">
         <h2 class="what-are-we-doing-header">Наша команда</h2>
-        <ul>
-          <li>
+        <div class="employees">
+          <div>
             <img src="img/index/p1.jpg" alt="employee1" width="270" height="260" />
 
             <h3 class="headerEI">Игорь Демьяненко</h3>
 
             <p class="textEI">Product Designer</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <img src="img/index/p2.jpg" alt="employee2" width="270" height="260" />
 
             <h3 class="headerEI">Ольга Репина</h3>
 
             <p class="textEI">Frontend Developer</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <img src="img/index/p3.jpg" alt="employee3" width="270" height="260" />
             <h3 class="headerEI">Николай Тарасов</h3>
 
             <p class="textEI">Marketing</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <img src="img/index/p4.jpg" alt="employee4" width="270" height="260" />
 
             <h3 class="headerEI">Михаил Ермаков</h3>
 
             <p class="textEI">UI Designer</p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
